@@ -6,6 +6,7 @@
 
 
 
+
 body {
     background-color: rgb(222, 237, 250);
 }
@@ -19,13 +20,22 @@ header {
     color: #fff;
 }
 
+header nav ul{
+    list-style-type: none;
+}
+
+ header nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+ }
+
 h1 {
     font-size: 200%;
 }
 
 h2 {
-    font-size: 175%;
-    padding: 6%;
+    font-size: 250%;
+    padding: 50px;
     background-color: #a9a9a9;
     text-align: end;
 }
@@ -37,4 +47,44 @@ h3 {
 
 h4 {
     font-size: 100%;
+}
+
+a {
+    color: #fff;
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+    margin-left: 25%;
+}
+
+
+.row {
+    display: flex;
+}
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.project-image {
+    height: 200px;
+    width: 300px;
+}
+
+.big-image {
+    height: 500px;
+    width: 800px;
+}
+
+footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
 }
