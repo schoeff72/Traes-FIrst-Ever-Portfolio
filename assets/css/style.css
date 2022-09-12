@@ -80,11 +80,11 @@ p {
 }
 
 footer {
-    position: fixed;
+    position: relative;
    left: 0;
-   bottom: 0;
+   bottom: -725px;
    width: 100%;
-   background-color: red;
+   background-color: #15016f;
    color: white;
    text-align: center;
 }
